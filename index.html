@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#08040d"><meta name="description" content="JINX AS — a chill gaming clan built around friends, teamwork and fun.">
+<title>JINX AS — Chill. Play. Remember.</title>
+<link rel="icon" href="assets/jinx-logo.webp"><link rel="stylesheet" href="styles.css">
+</head>
+<body class="site-locked">
+
+<audio id="jinxTheme" src="assets/jinx-theme.mp3" preload="auto" loop></audio>
+<button class="music-toggle" id="musicToggle" type="button" aria-label="Pause JINX music" aria-pressed="true">
+  <span>♫</span> JINX RADIO
+</button>
+
+
+<div class="site-gate" id="siteGate" aria-label="Enter JINX AS">
+  <div class="gate-noise"></div>
+  <div class="gate-grid"></div>
+  <div class="gate-content">
+    <p class="gate-eyebrow"><span></span> JINX AS / GAMING CLAN</p>
+    <div class="gate-logo-wrap"><img src="assets/jinx-logo.webp" alt="JINX AS logo"></div>
+    <h1>JINX <span>AS</span></h1>
+    <p class="gate-tag">CHILL. PLAY. REMEMBER.</p>
+    <button class="enter-btn" id="enterJinx" type="button"><span>ENTER JINX</span><b>↗</b></button>
+    <p class="gate-hint">ENTER THE CLAN EXPERIENCE</p>
+  </div>
+  <div class="gate-corner top-left">JX // 001</div>
+  <div class="gate-corner top-right">EST. / JINX AS</div>
+  <div class="gate-corner bottom-left">PLAY WITH YOUR MATES</div>
+  <div class="gate-corner bottom-right">SCROLL / EXPLORE</div>
+</div>
+
+<div class="noise"></div><div class="cursor-glow"></div>
+<header class="nav" id="nav">
+<a class="brand" href="#top"><span class="brand-mark">J</span><span>JINX AS</span></a>
+<nav class="nav-links"><a href="#about">About</a><a href="#rosters">Rosters</a><a href="#games">Games</a><a href="#hub">Jinx Hub</a><a href="#join">Join</a></nav>
+<a class="nav-cta" href="https://discord.gg/hnrdjd7ehu" target="_blank" rel="noopener">DISCORD <span>↗</span></a>
+<button class="menu-btn" aria-label="Menu" aria-expanded="false">☰</button>
+</header>
+
+<main id="top">
+<section class="hero">
+<div class="hero-grid"></div>
+<div class="hero-copy reveal"><p class="eyebrow"><span></span> JINX AS / GAMING CLAN</p>
+<h1>JINX</h1><p class="hero-tag">CHILL. PLAY. REMEMBER.</p>
+<p class="hero-sub">We don't run after #1. We play with our mates, make memories and enjoy the game.</p>
+<div class="hero-actions"><a class="btn btn-primary" id="heroJoinJinx" href="https://discord.gg/hnrdjd7ehu" target="_blank" rel="noopener noreferrer">JOIN JINX <span>↗</span></a><a class="btn btn-ghost" id="heroLearnMore" href="#about">LEARN MORE <span>↓</span></a></div></div>
+<div class="hero-art reveal delay-2"><div class="art-frame"><div class="art-label top">JX // AS</div><img src="assets/jinx-logo.webp" alt="Jinx clan artwork"><div class="art-label bottom">PLAY WITH YOUR MATES</div></div></div>
+<div class="hero-scroll">SCROLL <span></span></div>
+</section>
+
+<section class="marquee"><div class="marquee-track"><span>JINX AS</span><i>✦</i><span>PLAY</span><i>✦</i><span>TEAMWORK</span><i>✦</i><span>MEMORIES</span><i>✦</i><span>JINX AS</span><i>✦</i><span>PLAY</span><i>✦</i><span>TEAMWORK</span><i>✦</i><span>MEMORIES</span><i>✦</i></div></section>
+
+<section class="section about-section" id="about">
+<div class="section-head reveal"><p class="eyebrow"><span></span> 01 / WHAT IS JINX AS?</p><h2>A CLAN.<br><em>NOT A RACE.</em></h2></div>
+<div class="about-grid"><div class="manifesto reveal"><p class="big-copy">Just a <strong>chill clan.</strong> We've been in this community long enough to know that it's all about having fun.</p><p>Playing with your mates. Making memories. Enjoying the game. That's what JINX AS is about.</p></div>
+<div class="values reveal delay-1"><div><strong>01</strong><span>HAVE FUN</span></div><div><strong>02</strong><span>PLAY TOGETHER</span></div><div><strong>03</strong><span>MAKE MEMORIES</span></div><div><strong>04</strong><span>TEAMWORK</span></div></div></div>
+</section>
+
+<section class="section clans">
+<div class="section-head reveal"><p class="eyebrow"><span></span> 02 / WHAT ARE CLANS?</p><h2>WE PLAY<br><em>TOGETHER.</em></h2></div>
+<div class="clan-explain reveal"><p class="big-copy">A clan is a group of players who play together.</p><div class="explain-grid"><p>In <strong>JINX AS</strong>, we fight in FFA and SMPs against other clans and teams. We do wars, call allies and compete together.</p><p>When a war is announced, we ping everyone, hop on VC and play together. <strong>Win or lose doesn't matter much.</strong> It's about teamwork and fun.</p></div></div>
+</section>
+
+<section class="section rosters" id="rosters">
+<div class="section-head row reveal"><div><p class="eyebrow"><span></span> 03 / JINX ROSTERS</p><h2>THE<br><em>ROSTERS.</em></h2></div><p class="section-note">All Gamemodes</p></div>
+<div class="roster-grid" id="rosterGrid"></div>
+</section>
+
+<section class="section games" id="games">
+<div class="section-head reveal"><p class="eyebrow"><span></span> 04 / GAMES</p><h2>WHERE WE<br><em>PLAY.</em></h2></div>
+<div class="game-grid">
+<a class="game-card featured reveal" href="https://www.minecraft.net/en-us" target="_blank" rel="noopener"><div class="game-number">01</div><div class="game-image minecraft"><img src="assets/minecraft.jpg" alt="Minecraft gameplay"><span>MINECRAFT</span></div><div class="game-info"><h3>Minecraft</h3><p>FFA • SMP • PvP • Clan Wars</p><span>VISIT ↗</span></div></a>
+<a class="game-card reveal delay-1" href="https://apps.microsoft.com/detail/9nkcchcfthv2" target="_blank" rel="noopener"><div class="game-number">02</div><div class="game-image fps"><img src="assets/fps.jpg" alt="Futuristic FPS arena"><span>FPS</span></div><div class="game-info"><h3>FPS</h3><p>Competitive • Aim • Team Play</p><span>VISIT ↗</span></div></a>
+<div class="game-card reveal delay-2"><div class="game-number">03</div><div class="game-image create"><img src="assets/create.jpg" alt="Jinx media creation workspace"><span>CREATE</span></div><div class="game-info"><h3>Create</h3><p>Clips • Edits • Builds • Content</p><span>JINX MEDIA</span></div></div>
+</div>
+</section>
+
+
+<section class="section jinx-hub-section" id="hub">
+  <div class="section-head reveal">
+    <p class="eyebrow"><span></span> 05 / JINX HUB</p>
+    <h2>SUPPORT.<br><em>TRAIN. APPLY.</em></h2>
+  </div>
+
+  <div class="hub-support-grid">
+    <article class="hub-panel reveal">
+      <div class="hub-panel-top"><span>01</span><span>APPY BOT / CLAN JINX SUPPORT</span></div>
+      <h3>CLAN JINX SUPPORT</h3>
+      <p class="hub-lead">Welcome to the official Clan Jinx Support. Open a ticket under the appropriate category so the management team can assist you efficiently.</p>
+
+      <div class="support-options">
+        <div><strong>GENERAL SUPPORT</strong><span>Need help? Ask us anything.</span></div>
+        <div><strong>TIER TEST</strong><span>Request a trial to test your tier and skills.</span></div>
+        <div><strong>TRAINING</strong><span>Schedule or get assistance with training sessions.</span></div>
+      </div>
+
+      <div class="hub-alert">DO NOT CREATE A TICKET FOR FUN.</div>
+      <p class="hub-small">Mass-pinging staff to see a ticket in DMs or the server can lead to a strike.</p>
+      <a class="hub-discord" href="https://discord.gg/hnrdjd7ehu" target="_blank" rel="noopener noreferrer">OPEN JINX DISCORD ↗</a>
+    </article>
+
+    <article class="hub-panel reveal delay-1">
+      <div class="hub-panel-top"><span>02</span><span>TIER TESTING / TRAINING</span></div>
+      <h3>TEST YOUR SKILL.</h3>
+      <p class="hub-lead">Current gamemodes available through JINX support.</p>
+
+      <h4>GAMEMODES FOR TIER TEST</h4>
+      <div class="mode-list">
+        <div><b>NETHPOT</b><span>Netherite Potion & NethOP</span></div>
+        <div><b>SWORD</b><span>Sword combat</span></div>
+        <div><b>DIAPOT</b><span>Diamond Potion</span></div>
+        <div><b>SMP</b><span>SMP & SMPOP</span></div>
+        <div><b>CPVP</b><span>Crystal PvP</span></div>
+        <div><b>AXE</b><span>Axe combat</span></div>
+        <div><b>UHC</b><span>Shieldless & Shield</span></div>
+      </div>
+
+      <h4 class="training-title">GAMEMODES FOR TRAINING</h4>
+      <div class="training-list"><span>NethPot</span><span>Sword</span><span>DiaPot</span></div>
+    </article>
+  </div>
+
+  <div class="applications-wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span></span> 06 / CLAN JINX APPLICATIONS</p>
+      <h2>BUILD<br><em>JINX.</em></h2>
+    </div>
+
+    <p class="hub-lead app-lead">Read the qualifications and apply for the role that fits you through the JINX Discord.</p>
+
+    <div class="application-grid">
+      <details class="application-card reveal">
+        <summary><span><b>STAFF APPLICATION</b><small>Major role • 15+</small></span><i>+</i></summary>
+        <ul>
+          <li>Must have Major role.</li>
+          <li>Must be 15 years old or above.</li>
+          <li>Moderation experience is not required, but it's a plus.</li>
+          <li>Must be sound minded and mature.</li>
+          <li>Must be active.</li>
+          <li>Must have more than 12+ hours VC time.</li>
+          <li>Be active at least 4 hours a day.</li>
+          <li>Joined the server for 1 month or above.</li>
+          <li>Be professional with tickets, VCs and clan mates.</li>
+          <li>Must follow requirements, rules and higher staff instructions.</li>
+        </ul>
+      </details>
+
+      <details class="application-card reveal delay-1">
+        <summary><span><b>RECRUITER APPLICATION</b><small>Sergeant+ • 14+</small></span><i>+</i></summary>
+        <ul>
+          <li>Must have Sergeant role or above.</li>
+          <li>Must be 14 years old or above.</li>
+          <li>Must be active and friendly.</li>
+          <li>Must have recruiting experience.</li>
+          <li>Must be professional and not toxic.</li>
+          <li>Must have more than 8+ hours VC time.</li>
+          <li>Must be active at least 4–5 hours daily.</li>
+          <li>Must follow clan rules.</li>
+          <li>Must complete 25 recruits per month quota.</li>
+          <li>At least 10 recruited players need to be active.</li>
+          <li>Must respect higher staff.</li>
+        </ul>
+      </details>
+    </div>
+
+    <div class="application-warning reveal">
+      <b>IMPORTANT — APPLICATION RULES</b>
+      <span>Mass-pinging staff to accept an application can lead to a strike. No blank applications will be accepted and can lead to an apply ban. Do not make tickets asking for your application to be accepted; this can lead to a timeout.</span>
+    </div>
+  </div>
+</section>
+
+<section class="section join" id="join"><div class="join-glow"></div><div class="join-inner reveal">
+<p class="eyebrow"><span></span> 05 / JOIN JINX</p><h2>COME PLAY<br><em>WITH US.</em></h2>
+<p>Looking for a chill clan, good teammates and people to make memories with? JINX AS might be your place.</p>
+<div class="join-points"><div><strong>01</strong><span>MAKE FRIENDS</span></div><div><strong>02</strong><span>JOIN WARS</span></div><div><strong>03</strong><span>HOP IN VC</span></div></div>
+<a class="btn btn-primary join-btn" href="https://discord.gg/hnrdjd7ehu" target="_blank" rel="noopener">JOIN JINX ON DISCORD <span>↗</span></a>
+<p class="join-note">Permanent invite • Make a ticket in the recruitment channel and we'll get back to you.</p>
+</div></section>
+</main>
+
+<footer class="footer"><div><div class="footer-brand">JINX AS<span>®</span></div><p>CHILL. PLAY. REMEMBER.</p></div>
+<div class="footer-links"><a href="#about">About</a><a href="#rosters">Rosters</a><a href="#games">Games</a><a href="#hub">Jinx Hub</a><a href="#join">Join</a></div>
+<div class="footer-credit"><p>© 2026 JINX AS</p><p class="made">WEBSITE MADE BY <strong>SENKU</strong> ✦</p><a href="#top">BACK TO TOP ↑</a></div></footer>
+<script src="script.js"></script>
+</body></html>
