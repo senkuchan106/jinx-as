@@ -71,7 +71,7 @@ heroLearnMore?.addEventListener("click", (event) => {
 
 const heroJoinJinx = document.getElementById("heroJoinJinx");
 heroJoinJinx?.addEventListener("click", () => {
-  window.open("https://discord.gg/hnrdjd7ehu", "_blank", "noopener,noreferrer");
+  window.open("https://discord.gg/u3Tbq6GNrK", "_blank", "noopener,noreferrer");
 });
 
 document.querySelectorAll('a[href^="#"]').forEach((link) => {
