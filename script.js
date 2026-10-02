@@ -1,9 +1,9 @@
 const rosters=[
-{title:"LT2s",badge:"CombatGarib",players:["Ayan","ThunderBlood","Gendmaker","Kristal","Chadpsl","BulkingArc","RumbleFury","OG Nueth","pokemon"]},
-{title:"HT3s",badge:"CombatAce",players:["Marin","Saltin","Honoured","Kspr","Gwmdevil","Artik","Virat","RexyAlone","Leonade","Rudr","Kickeded","Deadpoint","Broken","Ab1h","Aqueros","Shanay","Hunter","Yokosa","KJ","Zeltra","Bhanu","Reaper","Juha","Si3d","OvbAryan"]},
-{title:"LT3s",badge:"CombatAce",players:["prox","Arora","Dev","Dralit","Ekansh","Zarlo","Mirai","Sentry","Og Nueth","Aryan","Mace Hater","Raw","Thunderarc","Claveria","Cruxflied","Eternlx","HighT1er","Shirisz","Losty","Tr4ve","Vision","Choper","DangrousGuy"]}
+{title:"HT2s",badge:"CombatAce",players:["RumbleFury"]},
+{title:"LT2s",badge:"CombatGarib",players:["Ayan","Yajur","ThunderBlood","Gendmaker","Kristal","Chadpsl","BulkingArc","OG_Nueth","RevengeOP","pokemon_gg"]},
+{title:"HT3s",badge:"CombatAce",players:["rajasaltin_","Yokosa_","ShieldDemonn","STR1XY_Cr1tzz","Honoured","___GRIFFIN___","RexyAlone","Deadpoint","Bhanuxd","GWMDEVIL12","HunterXD","Artik","Virat","Kickeded","Broken"]},
+{title:"LT3s",badge:"CombatAce",players:["Dev5128","zarolem","Ekansh","Zenthor_Exe","SimpleLol","Mirai","ThunderDaArc","j4xny","Eternxlz","TheSentryVoid","TR4VE","Shirisz","Raw","HighT1er","DangrousGuy","NclSenpai","KiLLOv3rDose"]}
 ];
-
 const grid=document.querySelector("#rosterGrid");
 rosters.forEach((roster,i)=>{
   const card=document.createElement("article");
